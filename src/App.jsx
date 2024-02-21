@@ -1,7 +1,8 @@
 import { useEffect, useState, useMemo } from 'react'
 import './App.css'
 import questions from './questions'
-import Logo from './Images/Logo-2.png'
+import Logo from './Images/Logo-1.png'
+import LogoBackUp from './Images/Logo-2.png'
 import QuestionBox from './Components/QuestionBox';
 import Result from './Components/Result';
 
@@ -62,7 +63,7 @@ function App() {
     <div className='main-container' style={handleBackGround} >
       <header>
         <div className='logo' >
-          <img src={Logo} alt="" />
+          <img src={Logo} alt={LogoBackUp} />
           <h1 style={handleColor}>QuizPro</h1>
         </div>
 
