@@ -82,21 +82,14 @@ footer {
   border-radius: 0px;
 }
 
-.opt-container>button:focus {
-  background-color: black;
-  color: white;
-  border: 1px solid white;
+.opt-container>button:hover {
+  border: 1.5px solid blue;
 }
 
 footer>button {
   background-color: black;
   color: white;
   border: 1px solid black;
-}
-
-footer>button:hover {
-  background-color: white;
-  color: black;
 }
 
 .result-box header {
