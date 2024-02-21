@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15vh;
+  align-items: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+main {
+  background-color: #F2F2F2;
+  color: black;
+  width: 60%;
+  margin: 0px auto;
+  padding: 2vh;
+  border: 1px solid black;
+  box-shadow: 4px 4px 0.5px 0px #5D16EB, -4px -4px 1px rgb(255, 255, 255, .30);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  color: red;
+  margin-bottom: 5px;
+}
+
+span {
+  color: #5D16EB;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1.3vh 3vh;
+  border-radius: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3vh 0vh;
+}
+
+
+.toggleBtn {
+  background-color: #5D16EB;
+  color: black;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo>img {
+  width: 20%;
+}
+
+.opt-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+
+.opt-container>button {
+  background-color: white;
+  border: 0.5px solid black;
+  margin-top: 3vh;
+  padding: 1vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0px;
+}
+
+
+footer>button {
+  background-color: black;
+  color: white;
+}
