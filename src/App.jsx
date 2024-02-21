@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import './App.css'
 import questions from './questions'
-import Logo from './Images/Logo-1.png'
+import Logo from './Images/Logo-2.png'
 import QuestionBox from './Components/QuestionBox';
 import Result from './Components/Result';
 
