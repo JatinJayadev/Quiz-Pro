@@ -111,6 +111,8 @@ footer>button {
   color: blue;
 }
 
+
+
 @media screen and (max-width: 768px) {
   header {
     margin: 3vh 7vh;
@@ -156,7 +158,7 @@ footer>button {
   }
 
   main {
-    width: 72%;
+    width: 75%;
     padding: 1vh;
   }
 

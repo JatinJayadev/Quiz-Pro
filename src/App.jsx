@@ -22,7 +22,6 @@ function App() {
     } else {
       setDisplayResult(true)
     }
-    console.log(currentScore)
   }
 
   const handleToggle = () => {
