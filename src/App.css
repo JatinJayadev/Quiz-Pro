@@ -140,31 +140,3 @@ footer>button {
     padding: 0.7vh 0vh;
   }
 }
-
-
-@media screen and (max-width:480px) {
-  header {
-    margin: 3vh 4vh;
-  }
-
-  main {
-    width: 75%;
-    padding: 1vh;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  h2 {
-    font-size: 16px;
-  }
-
-  h3 {
-    font-size: 14px;
-  }
-
-  button {
-    padding: 0.5vh 2vh;
-  }
-}
