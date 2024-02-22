@@ -7,15 +7,24 @@ function Result({ score, setScore, setDisplayResult, setCurrentQuestion }) {
     }
 
     return (
-        <div className="result-box">
-            <header><h2>Final Results</h2></header>
+
+        // This is score container
+        < div className="result-box" >
+
+            <header>
+                <h2> Final Results </h2>
+            </header>
+
+            {/* Total Score and Percentage */}
             <h3>You Scored <span>{score}</span> out of 5 - (
                 {(score / 5) * 100}%)
             </h3>
-            <footer>
+
+            {/* Button to restart */}
+            <footer className="flex" >
                 <button onClick={handleRestart}>Restart</button>
             </footer>
-        </div>
+        </div >
     )
 }
 

@@ -6,8 +6,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-header {
+.flex {
   display: flex;
+}
+
+header {
   justify-content: space-between;
   margin: 3vh 25vh;
   align-items: center;
@@ -16,7 +19,7 @@ header {
 main {
   background-color: #F2F2F2;
   color: black;
-  width: 60%;
+  width: 55%;
   margin: 0vh auto;
   padding: 2vh;
   border: 1px solid black;
@@ -25,7 +28,9 @@ main {
 
 h2 {
   color: red;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-size: 23px;
 }
 
 span {
@@ -44,14 +49,12 @@ button {
 }
 
 footer {
-  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin: 3vh 0vh;
 }
 
 .logo {
-  display: flex;
   align-items: center;
 }
 
@@ -60,17 +63,11 @@ footer {
 }
 
 .opt-container {
-  display: flex;
   flex-direction: column;
   width: 70%;
   justify-content: center;
   margin: 0px auto;
 }
-
-/* .opt-container button:hover {
-  background-color: black;
-  color: white;
-} */
 
 .opt-container button {
   background-color: white;
