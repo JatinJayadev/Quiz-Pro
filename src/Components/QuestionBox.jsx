@@ -3,12 +3,20 @@ import { useRef } from "react"
 function QuestionBox({ currentQuestion, questions, handleClick }) {
     const focusQuestion = useRef()
 
-    const changeColor = () => {
-        focusQuestion.current.style.color = "blue";
-    }
+    // const changeColor = () => {
+    //     focusQuestion.current.style.color = "blue";
+    // }
 
-    const removeColor = () => {
-        focusQuestion.current.style.color = "red";
+    // const removeColor = () => {
+    //     focusQuestion.current.style.color = "red";
+    // }
+
+    const changeHighlight = (color) => {
+        if (color === "red") {
+            focusQuestion.current.style.color = "red";
+        } else {
+            focusQuestion.current.style.color = "blue";
+        }
     }
 
     return (
@@ -26,8 +34,8 @@ function QuestionBox({ currentQuestion, questions, handleClick }) {
             </div>
 
             <footer>
-                <button onClick={changeColor} >Highlight</button>
-                <button onClick={removeColor} >Remove Highlight</button>
+                <button onClick={() => { changeHighlight("blue") }} >Highlight</button>
+                <button onClick={() => { changeHighlight("red") }} >Remove Highlight</button>
             </footer>
         </div>
     )
