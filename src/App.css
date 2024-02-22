@@ -101,3 +101,42 @@ footer>button {
 .result-box h3 {
   color: blue;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    margin: 3vh 7vh;
+  }
+
+  main {
+    margin-top: 7vh;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 0.5vh 2.5vh;
+  }
+
+  .logo>img {
+    width: 18%;
+  }
+
+  .opt-container {
+    width: 85%;
+  }
+
+  .opt-container button {
+    padding: 0.7vh 0vh;
+  }
+}
